@@ -1,0 +1,9 @@
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/m0zgster/ConfigData
+server:
+  port: 8081
